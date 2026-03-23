@@ -1,0 +1,71 @@
+---
+import '../styles/global.css';
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Una landing page premium y moderna creada con Astro" />
+		<title>Neon - Landing Page Premium</title>
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	</head>
+	<body>
+		<nav class="nav-glass">
+			<div class="container nav-container">
+				<a href="#" class="logo">NE<span class="text-gradient">ON</span></a>
+				<ul class="nav-links">
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#caracteristicas">Características</a></li>
+					<li><a href="#precios">Precios</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<main>
+			<section id="inicio" class="hero">
+				<div class="container hero-content">
+					<h1 class="hero-title">El futuro de tu web empieza <span class="text-gradient">ahora</span></h1>
+					<p class="hero-subtitle">
+						Lanza tu proyecto en tiempo récord con nuestra plantilla de Astro ultrarrápida, 
+						diseñada para maximizar conversiones y deslumbrar a tus usuarios.
+					</p>
+					<div class="hero-actions">
+						<a href="#empezar" class="btn btn-primary">Empezar Gratis</a>
+						<a href="#demo" class="btn btn-secondary">Ver Demo</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="caracteristicas" class="features">
+				<div class="container">
+					<h2 class="section-title">¿Por qué elegir <span class="text-gradient">Astro</span>?</h2>
+					<div class="features-grid">
+						<div class="feature-card">
+							<div class="feature-icon">⚡</div>
+							<h3 class="feature-title">Velocidad Extrema</h3>
+							<p class="feature-desc">Carga al instante gracias a la arquitectura Zero-JS por defecto de Astro. Tus usuarios no tendrán que esperar nunca más.</p>
+						</div>
+						<div class="feature-card">
+							<div class="feature-icon">🎨</div>
+							<h3 class="feature-title">Diseño Premium</h3>
+							<p class="feature-desc">Utilizando las últimas tendencias de diseño web, glassmorphism, y colores vibrantes para una experiencia inolvidable.</p>
+						</div>
+						<div class="feature-card">
+							<div class="feature-icon">🔍</div>
+							<h3 class="feature-title">SEO Optimizado</h3>
+							<p class="feature-desc">Al generar HTML estático, los motores de búsqueda aman tu sitio web, ayudándote a posicionar en los primeros resultados.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="container">
+				<p class="footer-text">&copy; 2026 Neon Landing Page. Creado con ❤️ y Astro.</p>
+			</div>
+		</footer>
+	</body>
+</html>
